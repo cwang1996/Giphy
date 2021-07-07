@@ -1,7 +1,7 @@
 window.addEventListener('load', function(){
-    const api = `http://api.giphy.com/v1/gifs/trending?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
-    const api2 = `http://api.giphy.com/v1/gifs/random?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
-    const api3 = `http://api.giphy.com/v1/gifs/trending?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
+    const api = `https://api.giphy.com/v1/gifs/trending?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
+    const api2 = `https://api.giphy.com/v1/gifs/random?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
+    const api3 = `https://api.giphy.com/v1/gifs/trending?api_key=8tHmonrwdDf1DmEpFTsEgarq8yttrCAV`;
         fetch(api)
         .then(response => {
             return response.json();
